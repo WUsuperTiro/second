@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<style>
+#header
+{
+	text-align:center;
+	color:black;
+}
+#nav
+{
+	text-align:left;
+	float:left;
+}
+#section
+{
+	text-align:left;
+	float:left;
+}
+</style>
+
+<body>
+<div id="header">
+<b>Rservation</b><br>
+</div>
+
+<div id="nav">
+Name<br/>
+Password<br/>
+Gender<br/><br/>
+Continent<br/>
+Meals<br/><br/><br/>
+Remark<br/>
+</div>
+
+<body>
+<div id="section">
+	<form>
+	<input type="text" name="name" >
+	<br/>
+	<input type="password" name="password">
+	<br/>
+	<input type="radio" name="gender" value="Male">Male
+	<br/>
+	<input type="radio" name="gender" value="Female">Female
+	<br/>
+	<select name="continent">
+		<option
+		value="Please select" selected>Please select</option>
+		<option
+		value="Africa">Africa</option>
+		<option
+		value="Asia">Asia</option>
+		<option
+		value="Europe">Europe</option>
+	</select>
+	<br/>
+	<input type="checkbox" name="meals" value="Breakfast">Breakfast
+	<br/>
+	<input type="checkbox" name="meals" value="Lunch">Lunch
+	<br/>
+	<input type="checkbox" name="meals" value="Dinner">Dinner
+	<br/>
+	<textarea name="Remark" rows="3" cols="10" placeholder="....">
+	</textarea>
+	</form>
+
+</div>
+
+</body>
+</html>
